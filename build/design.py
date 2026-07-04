@@ -161,7 +161,7 @@ leg_right = blob([
     (498, 472), (542, 472), (566, 540), (604, 588),
     (632, 612), (600, 636), (556, 592), (508, 540),
 ])
-add("n", leg_left, leg_right)
+add_white_over_navy(leg_left, leg_right)
 
 # --- Boots (white) hanging at the sides, toes out; punch through navy ---
 boot_l = blob([(378, 566), (416, 590), (402, 664), (356, 690),
